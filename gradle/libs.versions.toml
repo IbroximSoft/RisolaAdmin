@@ -1,0 +1,58 @@
+[versions]
+agp = "8.5.1"
+kotlin = "1.9.0"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.9.2"
+fragment = "1.6.2"
+constraintlayout = "2.1.4"
+navigationFragment = "2.7.7"
+googleGmsGoogleServices = "4.4.2"
+firebaseAuth = "23.0.0"
+viewModel = "2.7.0"
+toastGrender = "1.5.2"
+imagePicker = "2.1"
+firebaseFirestore = "25.1.0"
+circleProgress = "v1.0"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+
+#Firebase
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+
+#Navigation Fragment
+androidx-fragment = { group = "androidx.fragment", name = "fragment", version.ref = "fragment" }
+androidx-navigation = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationFragment" }
+androidx-navigationUi = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationFragment" }
+
+#ViewModel
+viewModel-lifecycle = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "viewModel"}
+viewModel-runtime = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "viewModel"}
+
+#Toast
+toast-grender = { group = "com.github.GrenderG", name = "Toasty", version.ref = "toastGrender" }
+
+#ImagePicker
+imagepicker-dhaval2404 = { group = "com.github.dhaval2404", name = "imagepicker", version.ref = "imagePicker"}
+firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore", version.ref = "firebaseFirestore" }
+
+#Progress
+progress-colakcode = { group = "com.github.colakcode", name = "clkProgress", version.ref = "circleProgress" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
+

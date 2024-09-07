@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "313098276586",
+    "project_id": "risola-o-qish-dasturi",
+    "storage_bucket": "risola-o-qish-dasturi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313098276586:android:d354b6f20eb2d5dff91193",
+        "android_client_info": {
+          "package_name": "uz.ibrohim.risola"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4b3ZG3fNKuLCLH2W0VG_frK_Tuh6BdRk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313098276586:android:bcd6138fb3fbad50f91193",
+        "android_client_info": {
+          "package_name": "uz.ibrohim.risolaadmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4b3ZG3fNKuLCLH2W0VG_frK_Tuh6BdRk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
